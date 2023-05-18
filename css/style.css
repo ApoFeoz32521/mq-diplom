@@ -159,23 +159,23 @@ img {
 }
 
 .trend1 {
-    background: url("/images/trend1.jpg");
+    background: url("../images/trend1.jpg");
     background-repeat: no-repeat;
 }
 
 .trend2 {
-    background-image: url("/images/trend2.jpg");
+    background-image: url("../images/trend2.jpg");
     background-repeat: no-repeat;
     background-color: #606260;
 }
 
 .trend3 {
-    background: url("/images/trend3.jpg");
+    background: url("../images/trend3.jpg");
     background-repeat: no-repeat;
 }
 
 .trend4 {
-    background: url("/images/trend4.jpg");
+    background: url("../images/trend4.jpg");
     background-repeat: no-repeat;
 }
 
