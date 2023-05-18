@@ -164,7 +164,7 @@ img {
 }
 
 .trend2 {
-    background: url("/images/trend2.jpg");
+    background-image: url("/images/trend2.jpg");
     background-repeat: no-repeat;
 }
 
