@@ -123,16 +123,6 @@ img {
     display: flex;
 }
 
-.trend {
-    min-width: 25%;
-    height: 320px;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: flex;
-    align-items: end;
-    position: relative;
-}
-
 .trends-title {
     font-size: 14px;
     text-transform: uppercase;
@@ -143,13 +133,21 @@ img {
 
 .trends-title::after {
     content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #000;
-    opacity: 0.6;
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #b59f5b;
+    margin: 20px auto;
+}
+
+.trend {
+    min-width: 25%;
+    height: 320px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: end;
+    position: relative;
 }
 
 .trend-subtitle {
@@ -161,7 +159,7 @@ img {
 }
 
 .trend1 {
-    backgorund: url(/images/trend1.jpg);
+    background: url(/images/trend1.jpg);
     background-repeat: no-repeat;
 }
 
