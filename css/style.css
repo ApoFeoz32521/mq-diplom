@@ -119,6 +119,68 @@ img {
     width: 700px;
 }
 
+.trends-content {
+    display: flex;
+}
+
+.trend {
+    min-width: 25%;
+    height: 320px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+.trend::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.trend-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.trend1 {
+    backgorund: url(/images/trend1);
+    background-repeat: no-repeat;
+}
+
+.trend2 {
+    background: url(/images/trend2);
+    background-repeat: no-repeat;
+}
+
+.trend3 {
+    background: url(/images/trend3);
+    background-repeat: no-repeat;
+}
+
+.trend4 {
+    background: url(/images/trend4);
+    background-repeat: no-repeat;
+}
+
+.trend-text {
+    outline: 3px solid #b59f5b;
+    outline-offset: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    z-index: 1;
+}
+
 .news {
     position: relative;
     box-sizing: border-box;
