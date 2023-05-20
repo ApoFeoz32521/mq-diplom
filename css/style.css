@@ -36,7 +36,7 @@ img {
 .header {
     position: relative;
     background-color: #666666;
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url("./images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
