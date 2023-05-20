@@ -33,6 +33,19 @@ img {
     display: block;
 }
 
+.popup {
+    display: none;
+}
+
+.popup-form {
+    width: 40vw;
+    height: 79vh;
+}
+
+.popup-close {
+    bottom: 39%;
+}
+
 .header {
     position: relative;
     background-color: #666666;
@@ -517,56 +530,171 @@ ul.themes-container li {
     border-bottom: solid 1px #ededed;
 }
 
-.social {
-    max-width: 1170px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: #f3f7f5;
-    text-align: center;
+.social-icon_dribble {
+    background-image: url(/svg/001-dribbble.svg);
 }
+.social-icon_pinterest {
+    background-image: url(/svg/001-pinterest.svg);
+}
+.social-icon_tumblr {
+    background-image: url(/svg/003-tumblr.svg);
+}
+.footer {
+    margin-top: 60px;
+}
+.footer-address {
+    max-width: 78vw;
+    min-width: 75vw;
+    margin-left: 3.7%;
 
-.social-container {
+    background-color: #f4f7f6;
     display: flex;
-    gap: 26px;
-    padding: 31px 0 32px;
-    background-color: rgb(244, 247, 246);
     justify-content: center;
 }
-
-.social-container li:nth-child(1n + 2) {
-    padding-left: 14px;
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
-
-/*noinspection ALL*/
-.social-container li {
-    display: inline-block;
+.footer-wrapper {
+    width: 85.5vw;
+    margin-left: 4%;
+    padding: 0 15px;
+}
+.social-icon {
+    display: block;
     width: 20px;
     height: 20px;
-    color: rbg(0,0,0);
-}
-
-.social-container a:after {
-    content: "";
-    display: inline-block;
-    width: 30px;
-    height: 30px;
     background-repeat: no-repeat;
+    background-size: 16px;
     background-position: center;
-    vertical-align: middle;
+    padding: 30px 15px;
 }
 
 .copyright {
-    font-weight: bold;
+    text-decoration: none;
+    color: #999;
+    font-family: OpenSans, sans-serif;
+    font-weight: 700;
     font-size: 12px;
-    line-height: 12px;
-    color: #999999;
-    text-indent: 10px;
-    text-transform: capitalize;
     text-align: center;
-    padding-top: 59px;
-    padding-bottom: 35px;
+    margin: 74px;
+}
+.header-wrapper {
+    max-width: 66%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 45%;
 }
 
-.copyright a {
-    color: #999999;
+li {
+    list-style-type: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.products {
+    box-sizing: border-box;
+    min-width: 1160px;
+    display: flex;
+    margin-bottom: 7%;
+}
+.product {
+    box-sizing: border-box;
+    display: block;
+    width: 19.5vw;
+    margin-left: 10%;
+}
+.product_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 700;
+}
+.product_img {
+    position: relative;
+    z-index: 0;
+    margin: 30px;
+    object-fit: cover;
+}
+.product_description {
+    font-family: OpenSans, sans-serif;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.video_link {
+    text-decoration: none;
+    color: #bfac71;
+    padding-left: 2px;
+}
+.product_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+.product_body {
+    border: 3px solid #b59f5b;
+    position: relative;
+    z-index: 1;
+    margin-top: -20%;
+    padding: 21% 10% 4% 7%;
+    min-height: 26.5vh;
+    min-width: 290px;
+    margin-left: 3%;
+}
+.product_price-value {
+    display: block;
+}
+.product_price {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: OpenSans, sans-serif;
+}
+.product_price_old {
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: OpenSans, sans-serif;
+}
+.product_button {
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5% 7%;
+    background-color: #b59f5b;
+    border: 1px solid #b59f5b;
+    z-index: 3;
+}
+h2.top.product_imgbox {
+    margin-left: 40%;
+    position: absolute;
+    margin-top: -3%;
+}
+
+.top::after {
+    content: "";
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    width: 4vw;
+    height: 3px;
+    background: #e1d9bd;
+}
+#toggle {
+    display: none;
 }
