@@ -541,6 +541,7 @@ li {
     box-sizing: border-box;
     min-width: 1160px;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 7%;
     position: relative;
 }
@@ -617,7 +618,7 @@ li {
     z-index: 3;
 }
 h2.top.product_imgbox {
-    margin-left: 42.5%;
+    flex-basis: 100%;
     margin-top: -3%;
     font-size: 20px;
 }
