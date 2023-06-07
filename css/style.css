@@ -544,7 +544,8 @@ li {
 }
 .product {
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 19.5vw;
     margin-left: 10%;
 }
@@ -584,9 +585,9 @@ li {
     z-index: 1;
     margin-top: -24%;
     padding: 21% 10% 4% 7%;
-    min-height: 15vh;
     min-width: 290px;
     margin-left: 3%;
+    flex-grow: 1;
 }
 .product_price-value {
     display: block;
