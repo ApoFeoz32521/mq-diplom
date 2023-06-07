@@ -152,22 +152,19 @@
 }
 .page {
     margin-top: 4%;
-    max-width: 70vw;
 }
 
 .page-wrapper {
     box-sizing: border-box;
-    width: 90vw;
-    margin-left: 10%;
+    margin-left: 15%;
     padding: 0 15px;
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
 }
 
 .main {
     justify-content: space-between;
 }
+
 .news {
     margin-bottom: 7%;
 }
@@ -175,6 +172,7 @@
 .news-img,
 .new-img {
     display: block;
+    max-height: 43.8vh;
 }
 
 .news-tag {
@@ -215,7 +213,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     line-height: 1.2;
-    max-width: 25vw;
+    max-width: 28vw;
     max-height: 18vh;
     margin-bottom: 25px;
     margin-top: 0;
@@ -258,8 +256,6 @@ a {
 .news,
 .new {
     display: flex;
-    overflow: hidden;
-    max-height: 39vh;
 }
 /*Первый блог*/
 article.“news” {
