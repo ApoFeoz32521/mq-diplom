@@ -28,7 +28,7 @@
     overflow-x: hidden;
 }
 .header {
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: inherit;
