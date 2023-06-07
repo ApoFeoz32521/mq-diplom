@@ -157,7 +157,7 @@
 .page-wrapper {
     box-sizing: border-box;
     margin: 0 auto;
-    max-width: 1200;
+    max-width: 1200px;
     width: 100%;
     padding: 0 15px;
     display: flex;
@@ -618,7 +618,6 @@ li {
 }
 h2.top.product_imgbox {
     margin-left: 42.5%;
-    position: absolute;
     margin-top: -3%;
     font-size: 20px;
 }
