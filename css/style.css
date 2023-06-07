@@ -462,13 +462,13 @@ article.“news” {
     font-size: 12px;
 }
 .social-icon_dribble {
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url("../svg/001-dribbble.svg");
 }
 .social-icon_pinterest {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url("../svg/001-pinterest.svg");
 }
 .social-icon_tumblr {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url("../svg/003-tumblr.svg");
 }
 .footer {
     margin-top: 60px;
