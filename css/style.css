@@ -539,10 +539,10 @@ li {
 }
 .products {
     box-sizing: border-box;
-    min-width: 1160px;
+    max-width: 1160px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 7%;
+    margin: 0 auto 7% auto;
     position: relative;
     justify-content: space-between;
 }
@@ -627,7 +627,7 @@ h2.top.product_imgbox {
 }
 
 /*Для планшета*/
-@media (min-width: 641px) and (max-width: 1200px) {
+@media (min-width: 641px) and (max-width: 1199px) {
     .header {
         background-image: url("../images/banner-bg-tablet.jpg");
         background-repeat: no-repeat;
