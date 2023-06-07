@@ -156,7 +156,9 @@
 
 .page-wrapper {
     box-sizing: border-box;
-    margin-left: 15%;
+    margin: 0 auto;
+    max-width: 1200;
+    width: 100%;
     padding: 0 15px;
     display: flex;
 }
