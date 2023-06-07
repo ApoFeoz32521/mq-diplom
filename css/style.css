@@ -544,13 +544,14 @@ li {
     flex-wrap: wrap;
     margin-bottom: 7%;
     position: relative;
+    column-gap: 347px;
+    justify-content: center;
 }
 .product {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     width: 19.5vw;
-    margin-left: 10%;
 }
 .product_title {
     text-transform: uppercase;
