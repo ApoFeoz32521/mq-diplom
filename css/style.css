@@ -481,10 +481,6 @@ form.mailing-form {
     margin-top: 60px;
 }
 .footer-address {
-    max-width: 78vw;
-    min-width: 75vw;
-    margin-left: 8.7%;
-
     background-color: #f4f7f6;
     display: flex;
     justify-content: center;
@@ -495,8 +491,9 @@ form.mailing-form {
     justify-content: center;
 }
 .footer-wrapper {
-    width: 85.5vw;
-    margin-left: 4%;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 0 auto;
     padding: 0 15px;
 }
 .social-icon {
