@@ -31,7 +31,7 @@
     background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: inherit;
+    background-size: cover;
     background-color: #000;
     position: relative;
     z-index: 0;
