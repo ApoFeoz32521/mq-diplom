@@ -544,14 +544,14 @@ li {
     flex-wrap: wrap;
     margin-bottom: 7%;
     position: relative;
-    column-gap: 347px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .product {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 19.5vw;
+    width: 23.65vw;
+    margin-left: 0;
 }
 .product_title {
     text-transform: uppercase;
@@ -590,7 +590,6 @@ li {
     margin-top: -24%;
     padding: 21% 10% 4% 7%;
     min-width: 290px;
-    margin-left: 3%;
     flex-grow: 1;
 }
 .product_price-value {
