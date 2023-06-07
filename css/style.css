@@ -550,7 +550,7 @@ li {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 23.65vw;
+    width: 345px;
     margin-left: 0;
 }
 .product_title {
