@@ -106,7 +106,6 @@
 .trends {
     box-sizing: border-box;
     display: flex;
-    max-width: 1660px;
 }
 .trend {
     overflow: hidden;
@@ -122,7 +121,6 @@
     position: relative;
     top: 0;
     left: 0;
-    padding-left: 4px;
     filter: brightness(40%);
     z-index: 0;
 }
@@ -148,9 +146,9 @@
     text-transform: uppercase;
     border: 3px solid #b59f5b;
     color: #fff;
-    padding: 2%;
-    margin: 2% 1% 1% 2%;
-    width: 17%;
+    padding: 1.2%;
+    margin: 0% 1.2% 2% 1.2%;
+    width: 19.8vmax;
 }
 .page {
     margin-top: 4%;
@@ -187,11 +185,10 @@
 }
 
 .news-tag-item {
+    display: flex;
     margin-right: 2%;
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: 20vw;
+    max-width: 6vw;
 }
 
 .news-tag-link {
