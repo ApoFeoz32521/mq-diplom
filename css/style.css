@@ -516,7 +516,7 @@ form.mailing-form {
     text-align: center;
     margin: 74px;
 }
-.header-wrapper {
+.header-container {
     max-width: 66%;
     margin: auto;
     padding-left: 20px;
@@ -651,7 +651,7 @@ h2.top.product_imgbox {
         opacity: 0.6;
         z-index: -1;
     }
-    .header-wrapper {
+    .header-container {
         max-width: 100%;
     }
     .hamburger div {
@@ -785,7 +785,7 @@ h2.top.product_imgbox {
         opacity: 0.6;
         z-index: -1;
     }
-    .header-wrapper {
+    .header-container {
         max-width: 100%;
     }
     .welcome-title {
